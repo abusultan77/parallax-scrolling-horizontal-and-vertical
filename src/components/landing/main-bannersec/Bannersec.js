@@ -25,69 +25,171 @@ const Bannersec = () => {
     <>
       <section className="main-bannersec ">
         <div class="external">
+        <h1>QUECKO faimily </h1>
           <div class="horizontal-scroll-wrapper">
+     
             <div class="img-wrapper slower">
-              <a href="https://altphotos.com/photo/stylish-parisian-cafe-terrace-279/" target="_blank" rel="noopener"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-cafe-terrace.jpg" alt="" />
+              <a href="https://quecko.com/about-us/" target="_blank" rel=""><img src="http://quecko.com/wp-content/uploads/2023/02/Alee.png" alt="" />
+                <h5>
+                  ALEE ABBASI
+
+                </h5>
+                <br></br>
+
+                <p> CEO</p>
               </a>
             </div>
 
             <div class="img-wrapper faster">
-              <a href="https://altphotos.com/photo/retro-boy-doll-wearing-elegant-clothes-330/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/antiquedollboy.jpg" alt="" />
+
+              <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Shoaib.png" alt="" />
+                <h5>
+                  SHOAIB JABBAR
+                </h5>
+                <br></br>
+
+                <p> MANAGING DIRECTOR</p>
               </a>
             </div>
 
             <div class="img-wrapper slower vertical">
-              <a href="https://altphotos.com/photo/clocks-shop-exposition-window-reflecting-the-streets-277/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/windowshopclock.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Sharjeel.png" alt="" />
+                <h5>
+                  SHARJEEL AWAN
+                </h5>
+                <br></br>
+
+                <p>
+                  CHIEF PRODUCT OFFICER
+                </p>
+
+
               </a>
             </div>
 
             <div class="img-wrapper slower slower-down">
-              <a href="https://altphotos.com/photo/swans-and-ducks-swimming-in-a-river-264/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/swanduckriver.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Waleed.png" alt="" />
+                <h5>
+                  WALEED QURESHI
+                </h5>
+                <br></br>
+
+                <p>
+                  DEVELOPMENT TEAM LEAD
+                </p>
+
+
               </a>
             </div>
 
             <div class="img-wrapper">
-              <a href="https://altphotos.com/photo/sidewalk-terrace-of-a-blue-facade-cafe-312/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-terrace.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Faiza.png" alt="" />
+                <h5>
+                  FAIZA MINHAS
+                </h5>
+                <br></br>
+
+                <p>
+                  PEOPLE MANAGER
+                </p>
+
+
               </a>
             </div>
 
             <div class="img-wrapper slower">
-              <a href="https://altphotos.com/photo/paris-waterfront-at-sunset-1555/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-seine-boat.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Usman.png" alt="" />
+
+                <h5>
+                  USMAN MALIK
+
+                </h5>
+                <br></br>
+
+                <p>
+                  TEAM LEAD FRONT-END
+                </p>
               </a>
             </div>
 
             <div class="img-wrapper faster1">
-              <a href="https://altphotos.com/photo/old-man-leaning-over-the-barrier-looking-at-the-river-265/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/old-man-river.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Zia.png" alt="" />
+                <h5>
+                  M. ZIA UL REHMAN
+                </h5>
+                <br></br>
+                <p>
+                  TEAM LEAD REACT-NATIVE
+                </p>
+
+
+
               </a>
             </div>
 
             <div class="img-wrapper slower slower2">
-              <a href="https://altphotos.com/photo/cafe-terrace-with-a-row-of-retro-tables-261/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-table-street.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Usama.png" alt="" />
+                <h5>
+                OSAMA CHATTHA
+                </h5>
+                <br></br>
+                <p>
+                TEAM LEAD QA
+                </p>
+              
+             
               </a>
             </div>
 
             <div class="img-wrapper">
-              <a href="https://altphotos.com/photo/street-scene-with-pedestrians-and-dogs-318/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/street-scene-people.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Fahad.png" alt="" />
+                <h5>
+                FAHAD SULEMAN
+                </h5>
+                <br></br>
+                <p>
+                CHIEF MARKETING OFFICER
+                </p>
+           
               </a>
             </div>
 
             <div class="img-wrapper slower">
-              <a href="https://altphotos.com/photo/tourist-barge-on-the-river-seine-near-notre-dame-266/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/notre-dame-river-boat.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Salman.png" alt="" />
+                <h5>
+                RANA SALMAN
+                </h5>
+                <br></br>
+                <p>
+                PROJECT MANAGER
+                </p>
+
+            
+
               </a>
             </div>
 
             <div class="img-wrapper slower last">
-              <a href="https://altphotos.com/photo/skulls-decoration-in-a-shop-window-331/" target="_blank" rel="noopener">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/shop-window-reflection.jpg" alt="" />
+            <a href="https://quecko.com/about-us/" target="_blank" rel="noopener">
+                <img src="http://quecko.com/wp-content/uploads/2023/02/Jamal.png" alt="" />
+            
+                <h5>
+                JAMAL WASEEM
+
+                </h5>
+                <br></br>
+                <p>
+                TEAM LEAD UI/UX
+                </p>
               </a>
             </div>
           </div>
@@ -102,7 +204,7 @@ const Bannersec = () => {
 
 
 
-    </section>
+      </section>
       {/* <section className="main-bannersec ">
         <div className="container-fluid">
           <div className="row">
