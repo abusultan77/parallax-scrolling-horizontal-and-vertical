@@ -25,12 +25,16 @@ const Bannersec = () => {
     <>
       <section className="main-bannersec ">
         <div class="external">
-        <h1>QUECKO faimily </h1>
+        <a href="https://quecko.com/about-us/" target="_blank" rel="">
+        <h1 className="Queckofaily" >QUECKO faimily </h1>
+              </a>
+       
+       
           <div class="horizontal-scroll-wrapper">
      
             <div class="img-wrapper slower">
               <a href="https://quecko.com/about-us/" target="_blank" rel=""><img src="http://quecko.com/wp-content/uploads/2023/02/Alee.png" alt="" />
-                <h5>
+                <h5 >
                   ALEE ABBASI
 
                 </h5>

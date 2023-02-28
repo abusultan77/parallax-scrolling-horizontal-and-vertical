@@ -1,4 +1,9 @@
 .main-bannersec {
+    h5 {
+        font-size: 24px;
+        color: darkslateblue;
+        padding-top: 10px;
+    }
     * {
         box-sizing: border-box;
       }
@@ -94,7 +99,9 @@
       }
       h1 {
         font-weight: 300;
-        font-size: 1rem;
+        font-size: 4rem;
+        color: dodgerblue;
+        text-align: center;
       }
       
       .img-wrapper a {
