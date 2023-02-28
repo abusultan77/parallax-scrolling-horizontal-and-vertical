@@ -1,0 +1,120 @@
+.main-address{
+    padding: 138px 50px;
+    background: url(../../bgwallet/bg-wallet.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // height: 100vh;
+    .walletcard{
+        background: #FFFFFF;
+        border: 1px solid #FFCCFA;
+        border-radius: 5px;
+        align-items: center;
+        padding: 19px 38px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+        h4{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: #FF00E7;
+            margin-top: 7px;
+            
+        }
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            color: #000000;
+            margin-top: 7px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+    .parentaddress{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left{
+            background: #FFFFFF;
+            border: 1px solid #FFCCFA;
+            border-radius: 5px 0px 0px 5px;
+            padding: 10px;
+            width: 100%;
+          
+            h4{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FF00E7;
+             text-align: center;
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                color: #000000;
+                text-align: center;
+                margin-top: 7px;
+            }
+        }
+        .right{
+            background: #FFFFFF;
+            border: 1px solid #FFCCFA;
+            border-radius: 5px 0px 0px 5px;
+            padding: 10px;
+            width: 100%;
+         
+            h4{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FF00E7;
+                text-align: center;
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                color: #000000;
+                text-align: center;
+                margin-top: 7px;
+            }
+        }
+    }
+    .imagewallet{
+        margin-top: 25px;
+    }
+    .mintbtn{
+        button{
+            background: #FF00E7;
+            border-radius: 5px;
+            align-items: center;
+            padding: 19px ;
+            width: 100%;
+            border: none;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: #FFFFFF;
+        }
+    }
+}
+// @media (max-width:1199px){
+//     .main-address{
+//         height: auto;
+//     }
+// }
+@media (max-width:600px){
+    .main-address{
+        padding: 20px 20px;
+    }
+}

@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+
+
+@font-face {
+  font-family: Gthin;
+  src: url(../src/font/Gellix-Thin.woff);
+}
+// 400
+@font-face {
+  font-family: Gregular;
+  src: url(../src/font/Gellix-Regular.woff);
+}
+// 500
+@font-face {
+  font-family: Gmedium;
+  src: url(../src/font/Gellix-Medium.woff);
+}
+// 600
+@font-face {
+  font-family: Gsemibold;
+  src: url(../src/font/Gellix-SemiBold.woff);
+}
+// 700
+@font-face {
+  font-family: Gbold;
+  src: url(../src/font/Gellix-Bold.woff);
+}
+// 800
+@font-face {
+  font-family: Gextrabold;
+  src: url(../src/font/Gellix-ExtraBold.woff);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #FFFFFF;
+  height: 100vh;
+  font-family: 'Goldman', cursive;
+}
+
+span.fiveblue {
+  color: #7A1DF2;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
+.p0 {
+  padding: 0px;
+}
+
+// All transitions
+div,
+ul,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+button {
+  -webkit-transition: background-color 0.7s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 6.5rem;
+}
+textarea {
+  resize: none;
+  height: 60px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0;
+}
+
+h1 {
+ //add here
+}
+
+.grey {
+  color: #888 !important;
+}
+
+.grey2 {
+  color: #475569;
+}
+
+.ptb20 {
+  padding: 20px 0;
+}
+
+p {
+  //add here
+}
+
+
+.ptb {
+  padding: 60px 0;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.purple {
+  color: #6c01c3;
+}
+.yellow {
+  color: #ffc13d;
+}
+.border-img {
+  border-radius: 10px;
+}
+
+.common {
+  color: #ff0083;
+}
+
+.green {
+  color: #6dff39;
+}
+
+.red {
+  color: #f41e5e;
+}
+.white {
+  color: #fff !important;
+}
+
+.blue {
+  color: #133572;
+}
+
+.navbar-toggle {
+  background-color: #333;
+
+  .icon-bar {
+    background-color: #eee;
+  }
+}
+@media only screen and (max-width: 800px) {
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 730px) {
+  .main-banner .landcardd .lastbutncrd button.buytonbtnn {
+
+    padding: 14px 7px !important;
+
+    font-size: 12px !important;
+
+
+    // font-family: 'Gellix';
+}
+  .main-banner .landcardd .ddcard {
+
+    padding: 7px!important;
+
+    font-size: 14px!important;
+  
+}
+  .main-banner p.landng_para {
+
+    padding-bottom: 7px !important;
+    font-size: 15px !important;
+}
+.main-banner .landcardd .bannercard h4.tookkeennss {
+
+  font-size: 24px !important;
+
+ 
+  margin-bottom: 18px !important;
+}
+.main-banner .landcardd .bannercard p.eethhm {
+
+  margin-bottom: 10px !important;
+  font-size: 13px !important;
+  white-space: nowrap !important;
+
+
+}
+.main-banner .landcardd .bannercard p.eethhmss {
+
+  font-size: 13px !important;;
+
+}
+  h1.main_heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px !important;
+
+    padding-bottom: 23px !important;
+}
+  .navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    outline: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .main-footer {
+    text-align: center;
+
+    .text-right {
+      text-align: center !important;
+    }
+  }
+
+  h1 {
+    // font-size: 2.5rem !important;
+  }
+
+  .ptb {
+    padding: 30px 0;
+  }
+
+  .xs-0 {
+    padding: 0px;
+  }
+
+  .main-mint,
+  .main-banner {
+    .inner-content {
+      .modal-content {
+        .for-padding {
+          padding: 0 0px !important;
+        }
+      }
+    }
+  }
+
+  .main-give {
+    .right-side {
+      margin-top: 30px !important;
+      h5 {
+        font-weight: 500;
+      }
+      li {
+        margin-right: 2px !important;
+      }
+    }
+  }
+}
+// 12 pro
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .nav-brand {
+    margin-left: 15px;
+  }
+  .right-side {
+    margin-top: 30px;
+    h5 {
+      font-weight: 500;
+    }
+    li {
+      margin-right: 8px !important;
+    }
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  .ptb {
+    padding: 20px 0;
+  }
+}
+// 12 pro max
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .nav-brand {
+    margin-left: 15px;
+  }
+
+  .right-side {
+    margin-top: 30px;
+    h5 {
+      font-weight: 500;
+    }
+    li {
+      margin-right: 8px !important;
+    }
+  }
+
+  .ptb {
+    padding: 20px 0;
+  }
+}
+
+.dnnf {
+  text-align: end !important;
+}
+iframe {
+  position: unset !important;
+  top: 0px !important;
+  left: 0px !important;
+  width: 0px !important;
+  height: 0px !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 600px) {
+  h2 {
+    // font-size: 30px !important;
+  }
+  .col-md-6{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .col-md-8 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .col-md-4{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+button:focus {
+  outline: none !important;
+}
+input:focus {
+  outline: none !important;
+}
+
+.form-control:focus {
+  box-shadow: unset;
+}
+
+
+@media(max-width:600px){
+  .modal.show .modal-dialog{
+    max-width: 100% !important;
+  }
+}
+
+button{
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+}
+
+button, input, optgroup, select, textarea:focus-visible{
+  outline: none !important;
+
+}
+button, input, optgroup, select, textarea:focus{
+  outline: none !important;
+  
+}
+button.close{
+  opacity: 1;
+}
+
+.active-next i{
+  color: #ff0083;
+}

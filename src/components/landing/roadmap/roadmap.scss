@@ -1,0 +1,142 @@
+.roadmap {
+    body {
+        // font-family: "Chakra Petch", sans-serif !important;
+    }
+
+    .timeline__heading {
+        position: relative;
+        font-family: "Goldman";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        color: #ff0083;
+        // margin-top: 130px;
+
+        letter-spacing: 0.01em;
+        // margin-bottom: 71px;
+    }
+
+    .timeline__section,
+    .timeline__point {
+        &::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+
+            @media (max-width: 767px) {
+                display: none;
+            }
+        }
+    }
+
+    .timeline__section {
+        position: relative;
+
+        &::after {
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ff0083;
+        }
+    }
+
+    .timeline__point {
+        position: relative;
+
+        &::after {
+            width: 18px;
+            height: 18px;
+            background: white;
+            border: 2px solid #ff0083;
+            border-radius: 50%;
+            z-index: 1;
+        }
+    }
+
+    .timeline__gutter {
+        // margin-left: 30px;
+        // margin-right: 30px;
+
+        > [class^="col-"] {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+
+    .timeline__title {
+        color: #ff0083;
+        // font-family: "Chakra Petch";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39px;
+        /* identical to box height */
+
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .timeline__text {
+        color: #000000;
+        margin-left: 18px;
+        list-style: disc !important;
+        // font-family: "Chakra Petch"!important;
+        ::marker {
+            color: #ff0083;
+        }
+        .liiisss {
+            margin-bottom: 12px;
+            // font-family: 'Chakra Petch';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 130%;
+        }
+    }
+
+    .entry:nth-child(even) .time {
+        transform: translate(40%, -48%);
+    }
+
+    @media only screen and (max-width: 600px) {
+        .container {
+            margin: 0;
+        }
+
+        .entry:nth-child(even) .content,
+        .entry:nth-child(odd) .content {
+            text-align: left;
+            transform: translate(60%, -9px);
+        }
+
+        .entry:nth-child(even) .time,
+        .entry:nth-child(odd) .time {
+            transform: translate(-130%, -48%);
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .roadmap .timeline__heading {
+        margin-top: unset !important;
+        font-size: 25px;
+    }
+    .roadmap .timeline__title {
+        font-size: 20px;
+
+        margin-bottom: unset;
+    }
+    .roadmap .timeline__text .liiisss {
+        margin-bottom: 11px;
+   
+        font-size: 15px;
+   
+    }
+}

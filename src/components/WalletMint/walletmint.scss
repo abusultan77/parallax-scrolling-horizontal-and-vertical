@@ -1,0 +1,283 @@
+.main-mint{
+    padding: 138px 50px;
+    background: url(../../bgwallet/bg-wallet.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // height: 100vh;
+    .walletcard{
+        background: #FFFFFF;
+        border: 1px solid #FFCCFA;
+        border-radius: 5px;
+        align-items: center;
+        padding: 19px 38px;
+        width: 100%;
+        text-align: center;
+margin-bottom: 10px;
+        h4{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: #FF00E7;
+            margin-top: 7px;
+            
+        }
+        p{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            color: #000000;
+            margin-top: 7px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+    .parentaddress{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .left{
+            background: #FFFFFF;
+            border: 1px solid #FFCCFA;
+            border-radius: 5px 0px 0px 5px;
+            padding: 10px;
+            width: 100%;
+          
+            h4{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FF00E7;
+             text-align: center;
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                color: #000000;
+                text-align: center;
+                margin-top: 7px;
+            }
+        }
+        .right{
+            background: #FFFFFF;
+            border: 1px solid #FFCCFA;
+            border-radius: 5px 0px 0px 5px;
+            padding: 10px;
+            width: 100%;
+         
+            h4{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FF00E7;
+                text-align: center;
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                color: #000000;
+                text-align: center;
+                margin-top: 7px;
+            }
+        }
+        .center{
+            background: #FFFFFF;
+            border: 1px solid #FFCCFA;
+            border-radius: 5px 0px 0px 5px;
+            padding: 10px;
+            width: 100%;
+         
+            h4{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                color: #FF00E7;
+                text-align: center;
+            }
+            p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                color: #000000;
+                text-align: center;
+                margin-top: 7px;
+            }
+        }
+    }
+    .imagewallet{
+        margin-top: 25px;
+    }
+    .pricecard{
+        background: #FFFFFF;
+        border: 1px solid #FFCCFA;
+        border-radius: 5px;
+        padding: 19px 0px;
+        width: 100%;
+        margin-top: 25px;
+        h4{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            text-align: center;
+            color: #FF00E7;
+        }
+    }
+    .counter{
+    
+        .btn__container{
+            display: flex;
+            margin-top: 10px;
+            .control__btn{
+                background: #FFFFFF;
+                border: 1px solid #FFCCFA;
+                border-radius: 5px 0px 0px 5px;
+                padding: 18px;
+                align-items: center;
+                width: 54px;
+                height: 54px;
+            }
+            .reset{
+                background: #FFFFFF;
+                border: 1px solid #FFCCFA;
+                padding: 18px;
+            
+width: 100%;
+height: 54px;
+            }
+        }
+    }
+    .mintbtn{
+        margin-top: 30px;
+        button{
+            background: #FF00E7;
+            border-radius: 5px;
+            align-items: center;
+            padding: 19px ;
+            width: 100%;
+            border: none;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            color: #FFFFFF;
+        }
+    }
+    
+}
+.mint-modal{
+    .modal-dialog{
+        .modal-content{
+            background: #FFFFFF;
+backdrop-filter: blur(32px);
+border-radius: 15px;
+            .modal-body{
+                .head{
+                    position: relative;
+                    h5{
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #171515;
+                        text-align: center;
+                        margin-top: 40px;
+                    }
+                    a{
+                        img{
+                            position: absolute;
+                            top: -24px;
+                            right: 15px;
+                        }
+                    }
+                }
+                .ticksquare{
+                    text-align: center;
+                    margin-top: 57.33px;
+                }
+                .para{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 29px;
+                    letter-spacing: 0.02em;
+                    color: #171515;
+                    text-align: center;
+                    margin-top: 22.33;
+                    margin-bottom: 60px;
+                }
+                .donebtn{
+                    button{
+                        background: #FF00E7;
+                        border-radius: 5px;
+                        padding: 14px 0px;
+                        width: 100%;
+                        border: none;
+                        margin-bottom: 24px;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 100%;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:600px){
+    .walletcard{
+        margin-bottom: 10px;
+    }
+    .main-mint .walletcard h4{
+        font-size: 14px !important;
+      
+    }
+    .main-mint .walletcard p{
+        font-size: 12px !important;
+    }
+    .main-mint .parentaddress {
+        display: flex;
+        justify-content: center;
+align-items: unset;
+    }
+    .main-mint .parentaddress .right h4{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .main-mint .parentaddress .right p{
+        font-size: 12px;
+    }
+    .main-mint .parentaddress .center h4{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .main-mint .parentaddress .center p{
+        font-size: 12px;
+    }
+    .main-mint .parentaddress .left h4{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .main-mint .parentaddress .left p{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+    .main-mint .pricecard h4{
+        font-size: 14px !important;
+    }
+    .main-mint .mintbtn button{
+        font-size: 14px !important;
+    }
+}

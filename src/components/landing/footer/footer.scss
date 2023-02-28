@@ -1,0 +1,116 @@
+.main-footer{
+   
+    background: #FAFAFA;
+
+    .parentfooter{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 40px;
+        .center-content{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            .cent{
+                margin-right: 40px;
+                &:last-child{
+                    margin-right: 0px;
+                }
+            }
+            a{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 110%;
+                color: #9D9D9D !important;
+            }
+        }
+        .social-icon{
+            .img-fluid{
+                margin-right: 10px;
+                &:last-child{
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+    .brdr{
+        border: 1px solid #EFEFEF;
+        margin-top: 59.5px;
+        margin-bottom: 16px;
+    }
+    .footerreserved{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 38px;
+        p{
+            font-family: Gmedium;
+            font-style: normal;
+            // font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+         
+            
+            text-transform: uppercase;
+            
+            color: #AEAEAE;
+        }
+    }
+}
+button.foterbtnn {
+    background: #FF0083;
+    box-shadow: 0px 28px 30px -10px #ff008326;
+    border-radius: 5px;
+    /* padding: 16px 40px; */
+    gap: 10px;
+    // font-family: 'Gellix';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    border: 2px solid transparent;
+    width: 161px;
+    height: 48px;
+}
+@media(max-width:430px){
+    .main-footer .footerreserved {
+        display: inline-grid;
+ 
+        margin-bottom: unset;
+    }
+    .main-footer .brdr {
+        border: 1px solid #EFEFEF;
+        margin-top: 19.5px;
+        margin-bottom: 16px;
+    }
+
+
+}
+@media(max-width:1199px){
+    .main-footer .parentfooter .center-content{
+        margin: 12px 0px;
+    }
+}
+@media(max-width:991px){
+    .main-footer .parentfooter{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .main-footer .parentfooter .center-content .cent{
+        margin: 12px 0;
+    }
+    .main-footer .parentfooter .center-content a{
+        margin-right: 10px !important;
+    }
+    .main-footer .parentfooter .center-content a{
+        font-size: 12px !important;
+    }
+    .main-footer .footerreserved p{
+        font-size: 10px !important;
+        // white-space: nowrap;
+    }
+}
+
